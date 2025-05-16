@@ -1,6 +1,6 @@
 # Capstone
 
-The Jupyter notebook [solver.ipynb](solver.ipynb) contains code that implements AFEM using both a residual based estimator and the ZZ estimator. AFEM can be run by first setting the following global variables:
+The Jupyter notebook [Solver.ipynb](Solver.ipynb) contains code that implements AFEM using both a residual based estimator and the ZZ estimator. AFEM can be run by first setting the following global variables:
 
 - `sing` is a boolean, setting it to `True` sets the problem to solved as the one containing a singularity, setting it to `False` sets it up as the smooth problem.
 - `depth` takes integer values, and controls the amount of AFEM iterations taken.
